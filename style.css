@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+h1 {
+    color: #828282;
+    font-size: 20px;
+    background-color: #FBC6DA;
+    font-weight: normal;
+    text-align: center;
+    padding: 8px;
+
+}
+
+p {
+    color: #828282;
+    font-size: 22px;
+
+}
+
+a {
+    font-size: 15px;
+    color: #828282;
+    text-decoration: none;
+
+}
+
+body {
+    width:1000px;
+    margin-right: auto;
+    margin-left : auto;
+    background-image:url(background-image/back_image.png)
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    width:1000px;
+}
+
+.header_left {
+    float: left;
+}
+
+.top_logo {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+}
+
+.top_text {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.header_right {
+    float: right;
+    text-align: right;
+
+}
+
+.tell {
+    background-color: #FBC6DA;
+    font-size: 22px;
+
+
+}
+
+
+
+
+
+
+
+/*top menu*/
+
+li {
+    list-style: none;
+    display: inline-block;
+    color: #828282;
+    background-color:#FBC6DA ;
+    text-decoration: none;
+    padding: 0px 30px;
+    font-size: 22px;
+}
+
+ul {
+    display: inline-block;
+    text-align: center;
+    background-color:#FBC6DA ;
+    width: 1000px;
+    height: 40px;
+    padding: 6px;
+
+}
+
+nav {
+    font-size: 22px;
+    text-decoration: none;
+    display: block;
+}
+
+
+
+/*topイメージ画像*/
+
+.top_img {
+    margin :20px 120px;
+}
+
+/*アイテム*/
+.item_box {
+    display:flex;
+    margin: 20px auto;
+    width:760px;
+}
+
+.item {
+    margin: 0px 50px 0px 0px;
+    display: inline-block;
+
+}
+
+.item_about {
+    display: inline-block;
+    width: 214px;
+}
+
+/*このサイトについて上段*/
+
+.about{
+    display: flex;
+    margin: 20px auto;
+    width: 760px;
+}
+
+.about_img {
+    display: flex;
+
+}
+
+.about_text {
+    display: flex;
+    width: 250px;
+    margin: 0 20px;
+
+}
+
+/*このサイトについて下段*/
+
+.about_move{
+    display: flex;
+    margin: 20px auto;
+    width: 760px;
+}
+
+/*新着情報*/
+.news{
+    display: block;
+    margin: 20px auto;
+}
+
+.news_text {
+
+    font-size: 15px;
+    text-align:center
+}
+
+/*アクセスマップ*/
+
+.map{
+    display: flex;
+    margin: 20px auto;
+    width: 760px;
+}
+
+.map_text {
+    display: flex;
+    width: 250px;
+    margin: 0 20px;
+
+}
+
+/*お問い合わせ*/
+
+.form{
+    display:block;
+    margin: 20px auto;
+    width: 760px;
+}
+
+table{
+    margin: 20px auto;
+    border: 2px #808080 solid;
+    padding: 30px 30px;
+}
+
+.form_button{
+    display: block;
+    margin: 10px 0px 0px 400px;
+}
+button{
+    width: 50px;
+    height: 30px;
+}
+
+input{
+    width: 300px;
+}
+
+input.comment{
+    width: 300px;
+    height: 100px;
+}
+th{
+    font-weight: normal;
+    vertical-align: top;
+    text-align:left;
+}
+
+td{
+    text-align:right;
+}
+
+
+
+
+/*footer*/
+
+
+footer {
+    display: inline-block;
+    text-align: center;
+    background-color: #FBC6DA;
+}
+
+.Copyright_box {
+    display:flex;
+    width: 1000px;
+}
+
+
+/*Copyright*/
+.Copyright {
+    display:inline-block;
+    margin: auto;
+    background-color: #FBC6DA;
+    font-size: small;
+
+}
+
+.logo_white {
+    float: left;
+    text-align: left;
+    padding: 0px 0px 15px 15px;
+}
